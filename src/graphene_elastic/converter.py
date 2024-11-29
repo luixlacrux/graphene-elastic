@@ -14,7 +14,7 @@ from graphene import (
     # is_node,
 )
 
-from elasticsearch_dsl import (
+from elasticsearch7_dsl import (
     # InnerDoc,
     field as elasticsearch_fields,
 )

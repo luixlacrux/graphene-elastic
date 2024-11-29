@@ -4,7 +4,7 @@ import operator
 import graphene
 import six
 
-from elasticsearch_dsl.query import Q
+from elasticsearch7_dsl.query import Q
 from stringcase import pascalcase as to_pascal_case
 
 from ..base import BaseBackend

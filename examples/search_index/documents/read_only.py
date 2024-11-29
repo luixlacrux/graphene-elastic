@@ -1,4 +1,4 @@
-from elasticsearch_dsl import Document
+from elasticsearch7_dsl import Document
 
 __all__ = (
     'ReadOnlyDocument',

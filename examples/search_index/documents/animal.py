@@ -1,6 +1,6 @@
 import datetime
-from elasticsearch_dsl import connections
-from elasticsearch_dsl import (
+from elasticsearch7_dsl import connections
+from elasticsearch7_dsl import (
     analyzer,
     Integer,
     Boolean,
@@ -17,7 +17,7 @@ from .read_only import ReadOnlyDocument
 from .settings import FARM_ANIMAL_DOCUMENT_NAME, ELASTICSEARCH_CONNECTION
 
 try:
-    from elasticsearch import logger
+    from elasticsearch7 import logger
 except ImportError:
     import logging
     logger = logging.getLogger(__name__)

@@ -1,4 +1,4 @@
-from elasticsearch_dsl import DateHistogramFacet, RangeFacet
+from elasticsearch7_dsl import DateHistogramFacet, RangeFacet
 from graphene import Node
 from graphene_elastic import ElasticsearchObjectType
 from graphene_elastic.filter_backends import (

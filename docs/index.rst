@@ -109,7 +109,7 @@ for full example.
 .. code-block:: python
 
     import datetime
-    from elasticsearch_dsl import (
+    from elasticsearch7_dsl import (
         Boolean,
         Date,
         Document,

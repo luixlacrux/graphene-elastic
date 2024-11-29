@@ -4,7 +4,7 @@ import operator
 import graphene
 import six
 
-from elasticsearch_dsl.query import Q
+from elasticsearch7_dsl.query import Q
 from stringcase import pascalcase as to_pascal_case
 
 from ..base import BaseBackend
@@ -36,7 +36,7 @@ class SimpleQueryStringBackend(BaseBackend):
                 'minimum_should_match': 3
             }
 
-        For list of all options: 
+        For list of all options:
         https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html
         """  # NOQA
         simple_query_string_options = getattr(

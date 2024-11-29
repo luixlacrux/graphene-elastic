@@ -1,6 +1,6 @@
 from typing import Callable
 import operator
-from elasticsearch_dsl.query import Q
+from elasticsearch7_dsl.query import Q
 import six
 
 from ...constants import (

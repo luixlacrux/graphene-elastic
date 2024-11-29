@@ -4,7 +4,7 @@ import inspect
 from collections import OrderedDict
 
 import elasticsearch_dsl
-from elasticsearch_dsl import field as elasticsearch_fields
+from elasticsearch7_dsl import field as elasticsearch_fields
 
 from graphene import Node
 # from graphene.utils.trim_docstring import trim_docstring

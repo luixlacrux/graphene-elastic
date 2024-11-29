@@ -1,7 +1,7 @@
 import datetime
 import json
 
-from elasticsearch_dsl import InnerDoc, Document, AttrDict, AttrList
+from elasticsearch7_dsl import InnerDoc, Document, AttrDict, AttrList
 from graphene.types.json import JSONString as OriginalJSONString
 
 __title__ = 'graphene_elastic.types.json_string'

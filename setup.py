@@ -5,7 +5,7 @@ setup(
     version="0.6.6",
     description="Graphene Elasticsearch (DSL) integration",
     long_description=open("README.rst").read(),
-    url="https://github.com/barseghyanartur/graphene-elastic",
+    url="https://github.com/luixlacrux/graphene-elastic",
     project_urls={
         "Bug Tracker": "https://github.com/barseghyanartur/graphene-elastic/"
                        "issues",
@@ -36,8 +36,8 @@ setup(
     ),
     install_requires=[
         "graphene>=2.1.3,<3",
-        "elasticsearch>=6.0",
-        "elasticsearch-dsl>=6.0",
+        "elasticsearch7>=6.0",
+        "elasticsearch7-dsl>=6.0",
         "singledispatch>=3.4.0.3",
         "iso8601>=0.1.12",
         "stringcase",

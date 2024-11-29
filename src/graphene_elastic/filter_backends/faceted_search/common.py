@@ -2,8 +2,8 @@ from copy import deepcopy
 # from collections import OrderedDict
 import enum
 
-from elasticsearch_dsl import TermsFacet
-from elasticsearch_dsl.query import Q
+from elasticsearch7_dsl import TermsFacet
+from elasticsearch7_dsl.query import Q
 
 import graphene
 from stringcase import pascalcase as to_pascal_case
