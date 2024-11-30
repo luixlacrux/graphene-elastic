@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import inspect
 from collections import OrderedDict
 
-import elasticsearch_dsl
+import elasticsearch7_dsl
 from elasticsearch7_dsl import field as elasticsearch_fields
 
 from graphene import Node
@@ -38,8 +38,8 @@ def get_document_fields(document, excluding=None):
 
 def is_valid_elasticsearch_document(document):
     return inspect.isclass(document) and (
-        issubclass(document, elasticsearch_dsl.Document)
-        or issubclass(document, elasticsearch_dsl.InnerDoc)
+        issubclass(document, elasticsearch7_dsl.Document)
+        or issubclass(document, elasticsearch7_dsl.InnerDoc)
     )
 
 

@@ -1,5 +1,5 @@
 import graphene
-import elasticsearch_dsl
+import elasticsearch7_dsl
 
 from collections import OrderedDict
 from graphene.relay import (
